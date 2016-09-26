@@ -1,8 +1,8 @@
-FROM gliderlabs/alpine:3.1
+FROM alpine:3.4
 
-MAINTAINER Chris Aubuchon <Chris.Aubuchon@gmail.com>
+MAINTAINER Analyser <analyser@gmail.com>
 
-ENV CONSUL_TEMPLATE_VERSION 0.12.2
+ENV CONSUL_TEMPLATE_VERSION 0.16.0
 
 ADD https://releases.hashicorp.com/consul-template/${CONSUL_TEMPLATE_VERSION}/consul-template_${CONSUL_TEMPLATE_VERSION}_linux_amd64.zip /
 
