@@ -6,7 +6,7 @@ Alpine Linux + consul-template Docker container. Use as a base for other contain
 To use as a base for another image:
 
 ``` 
-FROM asteris/consul-template:latest
+FROM dianplus/consul-template:latest
 ```
 
 ## Configuration
