@@ -2,7 +2,7 @@ FROM gliderlabs/alpine:3.4
 
 MAINTAINER Analyser <analyser@gmail.com>
 
-ENV CONSUL_TEMPLATE_VERSION 0.16.0
+ENV CONSUL_TEMPLATE_VERSION 0.18.1
 
 ADD https://releases.hashicorp.com/consul-template/${CONSUL_TEMPLATE_VERSION}/consul-template_${CONSUL_TEMPLATE_VERSION}_linux_amd64.zip /
 
